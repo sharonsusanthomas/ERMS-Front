@@ -1,7 +1,20 @@
 import React from 'react';
+import '../../App.css';
+import Cards from '../Cards';
+import HeroSection from '../HeroSection';
+import Footer from '../Footer';
+import Navbar from '../Navbar';
 
-const StaffDashboard = () => {
-  return <div>Welcome to the Staff Dashboard</div>;
-};
+
+function StaffDashboard() {
+  return (
+    <>
+    <Navbar />
+      <HeroSection />
+      <Cards />
+      <Footer />
+    </>
+  );
+}
 
 export default StaffDashboard;
